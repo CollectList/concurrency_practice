@@ -17,6 +17,7 @@ public class DaemonThread {
         public void run() {
             try {
                 while (!isInterrupted()) {
+
                     System.out.println(Thread.currentThread().getName()
                             + " I am extends Thread.");
                 }
